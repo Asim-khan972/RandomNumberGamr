@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(/pro1/2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#r1 {
+  /* background-color: gray; */
+  padding: 40px;
+  text-align: center;
+}
+#r2 {
+  border: 1px solid white;
+  /* background-color: gray; */
+  padding: 40px;
+  text-align: center;
+}
+#r1 h1 {
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.left,
+.right {
+  text-align: center;
+}
+input {
+  border: 1px solid white;
+  padding: 30px 10px;
+  background-color: gainsboro;
+  color: black;
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.right .message,
+.label-highScore,
+.Score,
+.Score-Label {
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+}
+.random-number {
+  font-size: 40px;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  border: 1px solid white;
+  padding: 10px;
+}
